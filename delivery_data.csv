@@ -1,0 +1,9 @@
+source,destination,distance_km,traffic_level,actual_eta
+Warehouse,A,5,2,12
+Warehouse,B,4,1,9
+A,Customer,6,4,18
+B,Customer,3,2,10
+Warehouse,A,5,5,20
+Warehouse,B,4,3,14
+A,Customer,6,1,11
+B,Customer,3,5,19
