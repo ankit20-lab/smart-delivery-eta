@@ -593,3 +593,11 @@ st.subheader("📈 Model Performance Comparison")
 st.bar_chart(
     comparison_df.set_index("Model")
 )
+
+from streamlit.components.v1 import html
+
+HtmlFile = open("delivery_map.html", "r", encoding="utf-8")
+
+source_code = HtmlFile.read()
+
+html(source_code, height=600)
