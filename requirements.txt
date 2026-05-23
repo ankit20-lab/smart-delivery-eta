@@ -7,3 +7,4 @@ folium
 streamlit-folium
 streamlit-autorefresh
 plotly
+scikit-learn
