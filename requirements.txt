@@ -8,3 +8,8 @@ streamlit-folium
 streamlit-autorefresh
 plotly
 scikit-learn
+fpdf2
+requests
+flask
+flask-cors
+branca

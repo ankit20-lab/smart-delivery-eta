@@ -19,4 +19,5 @@ def route():
         "rider_to_customer_time": f"{rider_eta} minutes"
     })
 
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
